@@ -1,0 +1,27 @@
+.pink{
+    background-color: #ff00d4;
+    width: 3000px;
+    height: 1400px;
+}
+.pink1{
+    background-color: #ff002b;
+    width: 90%;
+    height: 60%;
+}
+p{
+    background-color: #e45fa1;
+    color: #933b9e;
+    font-size: 81px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+.pink2{
+    background-color: #9f00a5;
+    width: 20%;
+    height: 80vh;
+}
+.pink3{
+    background-color: #fd002a;
+    width: 90vw;
+    height: 20%;
+}
