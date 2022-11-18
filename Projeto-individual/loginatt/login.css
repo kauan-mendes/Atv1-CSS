@@ -1,0 +1,149 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url(../imgs/yoru.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s;
+} 
+
+#ic_usuario{
+  width: 2.5vw;
+  height: 5vh;
+  position: absolute;
+  left: 77.5%;
+  top: 3.9vh;
+}
+
+.caixa_login{
+  background-image: url();
+  background-size: cover;
+  width: 27vw;
+  height: 65vh;
+  background-color: rgba(0, 0, 0, 0.74);
+  margin-left: 36.5%;
+  margin-top: 4%;
+  border: 3px solid #00ccff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: #00ccff 10px 5px 40px 7px, #00aeff -10px -2px 20px 2px;
+  transition: 1s;
+}
+
+.sub_container{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+
+.caixa_login h1{
+  font-family: monospace;
+  color: #ffffff;
+  margin-bottom: 6%;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000ba1;
+}
+
+input {
+  width: 67%;
+  height: 15.5%;
+  border: 3px solid #000ba1;
+  border-radius: 10px;
+  color: #000ba1;
+  outline: 0;
+  font-weight: bold;
+  padding-left: 5%;
+  transition: 1s;
+}
+
+
+label {
+  color: white;
+  margin-bottom:3.5%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: monospace;
+  transition: 1s;
+}
+
+
+
+#input_email::placeholder {
+  color: #000000;
+  padding: 11%;    
+}
+
+#input_senha::placeholder {
+  color: #000000;
+  padding: 35%;
+}
+
+.logo_valorant{
+  position: absolute;
+  width: 8.5%;
+  left: 16%;
+  top:3%;
+
+}
+
+
+
+button {
+ 
+  transition: 0.5s;
+  width: 55%;
+  height: 8%;
+  margin-top: 3%;
+  background-color: #000ba1;
+  color: white;
+  font-family: monospace;
+  transform: scale(1.1);
+  border: #00ccff solid 2px;
+  box-shadow: 3px 3px 30px 5px #00aeff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+#botao:hover{
+  transition:1s;
+  border-radius: 50px;
+  transform: scale(1.1);
+  font-family: monospace;
+  
+}
+
+.frase_final {
+  color:white;
+  /* position: absolute;
+  top: 65%;
+  left: 9.5%;
+  */font-size: 25px;
+  text-decoration: none;
+}
+
+a{
+  
+    color: #bbbbbb;  
+  
+}
+
+testes{
+  color: #b6b6b6;
+  color: #1f7cff;
+}
